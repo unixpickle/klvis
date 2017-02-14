@@ -11,8 +11,8 @@ import (
 )
 
 const (
-	pointSize  = 30.0 / 512.0
-	marginSize = 40.0 / 512.0
+	pointSize  = 50.0 / 512.0
+	marginSize = 80.0 / 512.0
 )
 
 // Point is a point in a scatter plot.
