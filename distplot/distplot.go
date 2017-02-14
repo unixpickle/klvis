@@ -14,8 +14,8 @@ import (
 	"github.com/unixpickle/anyvec/anyvec32"
 )
 
-const stepSize = 0.001
-const damping = 1e-3
+const stepSize = 1e-3
+const damping = 1e-10
 
 // A Point stores the distances which a data point wants
 // to have to its neighboring points.
