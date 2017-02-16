@@ -1,3 +1,5 @@
+// Command klvis produces visualizations for KL
+// divergences.
 package main
 
 import (
