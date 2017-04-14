@@ -95,7 +95,7 @@ func currentDistMat(points anydiff.Res) anydiff.Res {
 			Cols: 2,
 		})
 		d := anyvec.Max(sqDist.Output()).(float32) * damping
-		sqDist = anydiff.AddScaler(sqDist, d)
+		sqDist = anydiff.AddScalar(sqDist, d)
 		dist := anydiff.Pow(sqDist, float32(0.5))
 		rows = append(rows, dist)
 	}
